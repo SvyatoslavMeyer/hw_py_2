@@ -53,11 +53,11 @@ print(pr)
 
 # Реализуйте алгоритм перемешивания списка.
 
-# from random import shuffle
-# list_1 = [1, 2, 3, 4, 5, 6]
-# print(f'Список до перемешивания: {list_1}')
-# shuffle(list_1)
-# print(f'Список после перемешивания: {list_1}')
+from random import shuffle
+list_1 = [1, 2, 3, 4, 5, 6]
+print(f'Список до перемешивания: {list_1}')
+shuffle(list_1)
+print(f'Список после перемешивания: {list_1}')
 
 
 
